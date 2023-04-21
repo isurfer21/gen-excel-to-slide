@@ -9,9 +9,11 @@ It can generate marp slide from excel column by copying the content of the calcu
 - [replace-pattern](https://github.com/isurfer21/replace-pattern) → based on deno
 
 ## Getting started
-1. Copy the formula from given excelsheet and paste into the target excelsheet.
-2. Copy the column on which formula was applied and paste to markdown file.
-3. Run the worker shell script to sanitize the markdown file and generate html/pdf file output.
+1. Open the `lab/` folder, copy the formula from given excelsheet, and then paste it into the target excelsheet.
+2. Copy the the content of whole column on which formula was applied and paste it to markdown file.
+3. Run the `worker.sh`/`worker.ps1` shell script to sanitize the markdown file and generate html/pdf file output.
 
 ## Installation
-To install the app at system for global access, copy the `m2s.sh` script and paste it in the global `bin/` directory on macOS or linux; whereas do the same with `m2s.ps1` on windows.  
+On macOS or Linux, copy the `m2s.sh` script and put it in the global `bin/` directory; on Windows, do the same with `m2s.ps1`. This will install the application for system-wide access.
+
+After installation, gloabl `m2s.sh`/`m2s.ps1` script can be used as commands instead of local `worker.sh`/`worker.ps1` shell scripts. 
