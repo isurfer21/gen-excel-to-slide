@@ -12,3 +12,6 @@ It can generate marp slide from excel column by copying the content of the calcu
 1. Copy the formula from given excelsheet and paste into the target excelsheet.
 2. Copy the column on which formula was applied and paste to markdown file.
 3. Run the worker shell script to sanitize the markdown file and generate html/pdf file output.
+
+## Installation
+To install the app at system for global access, copy the `m2s.sh` script and paste it in the global `bin/` directory on macOS or linux; whereas do the same with `m2s.ps1` on windows.  
